@@ -1,0 +1,313 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.redcontainer {
+    background-color:#A24705;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .blackcontainer {
+    background-color:rgb(27, 21, 21);
+    height: 30px;
+    width: 100%;
+} */
+
+.flexing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.searchbar {
+    /* flex-grow: 1; */
+    margin: 0 20px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+}
+
+#awesome{
+    flex-basis: 40%;
+    height: 300px;
+    background-color: #ccc;
+    border-radius: 10px;
+    background-image: url('./pic3.png'); /* Path to your uploaded image */
+    background-size: cover;
+    background-position: center;
+}
+
+
+    .mission-image {
+        flex-basis: 40%;              
+        height: 300px;               
+        background-color: #ccc;       /* Fallback color if the image fails to load */
+        border-radius: 10px;          /* Adds rounded corners */
+        background-image: url('./image\ 1.png'); /* Path to your uploaded image */
+        background-size: cover;       /* Ensures the image covers the entire div */
+        background-position: center;  /* Centers the image */
+    }
+.searchbut {
+    margin-right: 10px;
+}
+
+.searchbut svg {
+    color: black;
+}
+
+.label {
+    font-weight: bold;
+    font-size: 18px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.currency, .profileicon, .heartbutton, .cart {
+    margin-left: 20px;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.bar div {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.bar div:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+hr {
+    width: 90%;
+    margin: 5px auto;
+}
+
+.main {
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 300px;
+    background-color: #A24705;
+    color: white;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Mission Section */
+.mission {
+    padding: 60px 20px;
+    background-color: #fdfdfd;
+}
+
+.mission h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.underline {
+    width: 100px;
+    height: 4px;
+    background-color: #A24705;
+    margin: 0 auto 50px;
+}
+
+.mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.mission-text {
+    flex-basis: 50%;
+    padding: 20px;
+}
+
+.mission-text h3 {
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+
+.mission-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.view-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #A24705;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.mission-image {
+    flex-basis: 40%;
+    height: 300px;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.mission-content.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Teachers Section */
+.teachers {
+    background-color: #f8f8f8;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.teachers h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.teacher-carousel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.teacher {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.teacher img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.teacher-info h4 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.teacher.featured img {
+    width: 100%;
+}
+
+/* Why it Works Section */
+.why-it-works {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.why-it-works h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.feature {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.feature-icon {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+.feature-icon.personalized-learning {
+    background-color: #ffeb3b;
+}
+
+.feature-icon.trusted-content {
+    background-color: #03a9f4;
+}
+
+.feature-icon.empower-teachers {
+    background-color: #4caf50;
+}
+
+.feature h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+.footer-line {
+    width: 90%;
+    height: 4px;
+    background-color: #A24705;
+    margin: 20px auto;
+}
