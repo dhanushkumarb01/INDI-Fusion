@@ -1,2 +1,7 @@
-# INDI-Fusion
-Developing an e-commerce website for emerging talents in fashion, pottery, paintings and handlooms, provid- ing a platform to showcase their skills. The site features AR technology for an enhanced shopping experience and offers designer Indian Art to international buyers.
+INDI-Fusion is an e-commerce platform designed to empower emerging talents in Indian fashion, pottery, paintings, couture, jewelry, and handlooms. The platform not only provides these artisans with a space to showcase their unique creations but also integrates cutting-edge AR technology to enhance the shopping experience for international buyers.
+Tech Stack
+
+    Frontend: JavaScript, EJS (Embedded JavaScript Templating)
+    Backend: Node.js
+    Database: MongoDB
+    Data Handling: JSON
