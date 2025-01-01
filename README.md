@@ -6,6 +6,7 @@ Frontend: JavaScript, EJS (Embedded JavaScript Templating)
     Data Handling: JSON
 
 User interface of the Website:
+
 ![WhatsApp Image 2025-01-01 at 14 54 25_28084e66](https://github.com/user-attachments/assets/4a31fd2c-dd22-4ea2-8f9c-5ca131dca032)
 ![WhatsApp Image 2025-01-01 at 14 53 54_b43fd0dc](https://github.com/user-attachments/assets/f85b8420-a933-4663-a023-3d43508abd9b)
 ![WhatsApp Image 2025-01-01 at 14 52 56_4548adb5](https://github.com/user-attachments/assets/b170a2d8-ae7e-48e1-b5bd-7e1b1ef6c5c2)
